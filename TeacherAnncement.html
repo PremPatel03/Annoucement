@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>   
+  <head>
+  <title>North Park Annoucements</title>
+      <link rel="icon" href="https://i.ibb.co/dcsQgND/download-removebg-preview.png">
+      <script src="teacher.js"></script> 
+</head>
+   
+<! All of the teacher options
+<div>
+    <h4>Grade</h4>
+    <select id="tGrade" name="Grade">
+        <option value="Grades">Grade</option>
+        <option value="Grade 9">Grade 9</option>
+        <option value="Grade 10">Grade 10</option>
+        <option value="Grade 11">Grade 11</option>
+        <option value="Grade 12">Grade 12</option>
+        <option value="All">All</option>
+    </select>
+    <h4>Gender</h4>
+    <select id="tGender" name="Gender">
+        <option value="Gender">Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="All">All</option>
+            </select>
+    <h4>Clubs</h4>
+    <select id="tClubs" name="Clubs">
+        <option value="Clubs">Clubs</option>
+        <option value="Model U.N">Model U.N</option>
+        <option value="DECA">DECA</option>
+        <option value="HOSA">HOSA</option>
+        <option value="Computer Club">Computer Club</option>
+        <option value="Eco-Club">Eco-Club</option>
+		<option value="S.T.E.A.M">STEAM</option>
+		<option value="All">All</option>
+    </select>
+    </div>
+<form>
+<label for="anncement">Enter your annoucement below:</label><br>
+<textarea row="50" cols="50" placeholder="Enter Text" id="text"></textarea>    
+</form>
+   <! Takes to another page when submit pressed 
+    <button id= "buttonT" onclick="saveData()"><a href="anncementposted.html">Submit</a></button> 
+   <div>
+    <center><a href="Title.html"><button type="button">Homepage</button></a></center>
+    </div>   
+</html>
