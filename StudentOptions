@@ -1,0 +1,18 @@
+var tGrade=[];
+var tGender=[];
+var tClubs=[]; 
+var Tdetails=[];
+
+function StudentOptions(){
+
+		sGrade = document.getElementById("StudentGrade").value;
+		sGender = document.getElementById("StudentGender").value;
+		sClubs = document.getElementById("StudentClub").value;
+		
+		localStorage.setItem('StudentGrade', StoreStudentGrade);
+		localStorage.setItem('StudentGender', StoreStudentGender);
+		localStorage.setItem('StudentClub', StoreStudentClub);
+		
+		alert("Your information has been saved =D.");
+		
+	}
